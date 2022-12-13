@@ -1,0 +1,29 @@
+.group-button{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 60px;
+  margin: 10px 0;
+  background-color: rgb(197, 255, 236);
+  border-radius: 10px;
+  padding: 10px;
+}
+.filter-button{
+  height: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.filter-button:hover{
+  background-color: rgba(0, 0, 0,0.4);
+}
+.selected{
+  background-color: white;
+  color: black;
+}

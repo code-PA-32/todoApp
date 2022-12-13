@@ -1,0 +1,25 @@
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  /* border: 1px solid red; */
+  padding: 50px 30px 20px 30px;
+  transition: 0.7s ease;
+  border-radius: 20px;
+  background-color: rgba(67, 250, 241, 0.4);
+  transition: 1s ease;
+}
+
+.list-task{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 60px;
+  width: 680px;
+  padding-right: 20px;
+  transition: 0.7s ease;
+}

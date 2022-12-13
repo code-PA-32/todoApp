@@ -1,0 +1,28 @@
+.create-task-box{
+  display: flex;
+  /* border: 1px solid red; */
+  margin: 20px 10px;
+  width: 100%;
+  height: 40px;
+  gap: 40px;
+  border-radius: 5px;
+}
+
+.create-task-box input{
+  width: 70%;
+  padding-left: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+.create-task-box button{
+  width: calc(100% - 70% - 40px);
+  background-color: rgb(189, 255, 189);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+}
+.create-task-box button:active{
+  background-color: rgb(70, 215, 109);
+}
