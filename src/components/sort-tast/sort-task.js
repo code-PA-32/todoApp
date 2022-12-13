@@ -1,7 +1,7 @@
 import "./sort-task.css";
 
 const SortTasks = (props) => {
-  const { important, completed, notCompleted, task, filter } = props;
+  const { important, completed, notCompleted, task } = props;
   const buttonsData = [
     { name: "all", label: `All (${task})` },
     { name: "comp", label: `Completed (${completed})` },
