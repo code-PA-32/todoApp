@@ -1,8 +1,6 @@
 import './header.css';
 
-const Header = (props) => {
-  const {task, completed, notCompleted} = props
-
+const Header = ({task, completed, notCompleted}) => {
     return(
       <header className='header-todo'>
         <h1>Create your task</h1>
